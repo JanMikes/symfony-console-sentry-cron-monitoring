@@ -1,0 +1,28 @@
+{
+    "name": "janmikes/symfony-console-sentry-cron-monitoring",
+    "description": "Implementation of Sentry cron monitoring for symfony/console commands",
+    "type": "library",
+    "require": {
+        "symfony/console": "^6.0",
+        "sentry/sentry": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Janmikes\\SymfonyConsoleSentryCronMonitoring\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jan Mikeš",
+            "email": "j.mikes@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
