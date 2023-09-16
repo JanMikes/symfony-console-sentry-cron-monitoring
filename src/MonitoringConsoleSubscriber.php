@@ -17,7 +17,7 @@ use Symfony\Component\Console\Event\ConsoleTerminateEvent;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-final class ConsoleSubscriber implements EventSubscriberInterface
+final class MonitoringConsoleSubscriber implements EventSubscriberInterface
 {
     private null|string $monitorSlug = null;
     private null|string $checkInId = null;
